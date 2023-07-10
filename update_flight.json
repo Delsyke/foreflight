@@ -1,0 +1,122 @@
+{
+  "flight": {
+    "departure": "KHOU",
+    "destination": "KLUK",
+    "scheduledTimeOfDeparture": "2023-06-25T11:00:00Z",
+    "aircraftRegistration": "OYHMH",
+    "callsign": "FFL37",
+    "cruiseProfileUUID": "3834dbc0-fdf2-4d43-8167-adbe2cbddc19",
+    "routeToDestination": {
+      "route": "DCT",
+      "altitude": {
+        "altitude": 430,
+        "unit": "FL"
+      }
+    },
+    "alternate": "KIND",
+    "secondAlternate": "KCMH",
+    "takeOffAlternate": "KAUS",
+    "routeToAlternate": {
+      "route": "DCT",
+      "altitude": {
+        "altitude": 200,
+        "unit": "FL"
+      }
+    },
+    "routeToSecondAlternate": {
+      "route": "DCT",
+      "altitude": {
+        "altitude": 200,
+        "unit": "FL"
+      }
+    },
+    "routeToTakeoffAlternate": {
+      "route": "DCT",
+      "altitude": {
+        "altitude": 200,
+        "unit": "FL"
+      }
+    },
+    "fuel": {
+      "fuelPolicy": "MinimumRequiredFuel",
+      "fuelPolicyValue": 0,
+      "taxi": 44,
+      "fuelAtShutdown": {
+        "value": 123,
+        "unit": "Pound"
+      }
+    },
+    "load": {
+      "people": 6,
+      "averagePeopleWeight": 200,
+      "cargo": 2000,
+      "passengers": [
+        {
+          "type": "Male",
+          "weight": null
+        },
+        {
+          "type": "Female",
+          "weight": null
+        },
+        {
+          "type": "Infant",
+          "weight": null
+        },
+        {
+          "type": "Child",
+          "weight": null
+        },
+        {
+          "type": "Male",
+          "weight": null
+        }
+      ],
+      "customWeight": {
+        "pilotAvgWeight": 75,
+        "caAvgWeight": 72,
+        "adultAvgWeight": null,
+        "maleAvgWeight": 70,
+        "femaleAvgWeight": 120,
+        "childrenAvgWeight": 23,
+        "infantAvgWeight": 12
+      }
+    },
+    "crew": [
+      {
+        "position": "PIC",
+        "crewId": "ameliaearhart@discovery.com",
+        "weight": null
+      },
+      {
+        "position": "SIC",
+        "crewId": "buzzaldrin@flight.com",
+        "weight": null
+      }
+    ],
+    "windOptions": {
+      "windModel": "Forecasted",
+      "fixedWindComponent": 120,
+      "fixedIsaDeviation": 12,
+      "historicalProbability": 50
+    },
+    "flightRule": null,
+    "atcTypeOfFlight": null,
+    "flightMeter": {
+      "flightHourMeterStart": 1,
+      "flightHourMeterEnd": 3,
+      "flightHourMeterTotal": 2
+    },
+    "flightLogTime": {
+      "timeIn": "2023-06-25T09:19:16.7651816+00:00",
+      "timeOff": "2023-06-25T12:19:16.7651827+00:00",
+      "timeOn": "2023-06-25T10:19:16.7651826+00:00",
+      "timeOut": "2023-06-25T13:19:16.7651824+00:00",
+      "flight": 2,
+      "block": 4
+    },
+    "dispatcherNotes": null,
+    "tripId": null,
+    "tags": []
+  }
+}

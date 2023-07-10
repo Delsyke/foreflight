@@ -1,0 +1,182 @@
+{
+  "flight": {
+    "flightId": "62782236-10fa-4e41-83d4-f91860ca3ae6",
+    "performance": {
+      "fuel": {
+        "unit": "Lbs",
+        "flightFuel": 0,
+        "taxiFuel": 300,
+        "fuelToDestination": 4000,
+        "landingFuel": 500,
+        "alternateFuel": 0,
+        "reserveFuel": 500,
+        "extraFuel": 0,
+        "contingencyFuel": 0,
+        "additionalFuel": 0,
+        "totalFuel": 4800,
+        "maxTotalFuel": 0
+      },
+      "times": {
+        "taxiTimeMinutes": 10,
+        "timeToDestinationMinutes": 120,
+        "alternateTimeMinutes": 0,
+        "reserveTimeMinutes": 45,
+        "extraTimeMinutes": 0,
+        "contingencyTimeMinutes": 0,
+        "additionalTimeMinutes": 0,
+        "totalTimeMinutes": 175,
+        "departureTime": "2023-06-25T11:00:00Z",
+        "departureTimeLocal": "2023-06-25T11:00:00Z",
+        "estimatedArrivalTime": "2023-06-25T13:00:00Z",
+        "estimatedArrivalTimeLocal": "2023-06-25T13:00:00Z",
+        "departureTimeZone": null,
+        "arrivalTimeZone": null
+      },
+      "distances": {
+        "destination": 450,
+        "gcdDestination": 420,
+        "alternate": 0,
+        "gcdAlternate": 0,
+        "secondAlternate": 0,
+        "gcdSecondAlternate": 0,
+        "takeOffAlternate": 0,
+        "gcdTakeOffAlternate": 0
+      },
+      "weights": {
+        "unit": "Lbs",
+        "rampWeight": 12600,
+        "maxRampWeight": 14600,
+        "takeOffWeight": 12300,
+        "maxTakeOffWeight": 16000,
+        "zeroFuelWeight": 7500,
+        "maxZeroFuelWeight": 8500,
+        "landingWeight": 8000,
+        "maxLandingWeight": 12000
+      },
+      "weather": null
+    },
+    "flightData": {
+      "departure": "KHOU",
+      "destination": "KLUK",
+      "scheduledTimeOfDeparture": "2023-06-25T11:00:00Z",
+      "aircraftRegistration": "OYHMH",
+      "callsign": "FFL37",
+      "cruiseProfileUUID": "3834dbc0-fdf2-4d43-8167-adbe2cbddc19",
+      "routeToDestination": {
+        "route": "DCT",
+        "altitude": {
+          "altitude": 430,
+          "unit": "FL"
+        }
+      },
+      "alternate": "KIND",
+      "secondAlternate": "KCMH",
+      "takeOffAlternate": "KAUS",
+      "routeToAlternate": {
+        "route": "DCT",
+        "altitude": {
+          "altitude": 200,
+          "unit": "FL"
+        }
+      },
+      "routeToSecondAlternate": {
+        "route": "DCT",
+        "altitude": {
+          "altitude": 200,
+          "unit": "FL"
+        }
+      },
+      "routeToTakeoffAlternate": {
+        "route": "DCT",
+        "altitude": {
+          "altitude": 200,
+          "unit": "FL"
+        }
+      },
+      "fuel": {
+        "fuelPolicy": "MinimumRequiredFuel",
+        "fuelPolicyValue": 0,
+        "taxi": 44,
+        "fuelAtShutdown": {
+          "value": 123,
+          "unit": "Pound"
+        }
+      },
+      "load": {
+        "people": 6,
+        "averagePeopleWeight": 200,
+        "cargo": 2000,
+        "passengers": [
+          {
+            "type": "Male",
+            "weight": null
+          },
+          {
+            "type": "Female",
+            "weight": null
+          },
+          {
+            "type": "Infant",
+            "weight": null
+          },
+          {
+            "type": "Child",
+            "weight": null
+          },
+          {
+            "type": "Male",
+            "weight": null
+          }
+        ],
+        "customWeight": {
+          "pilotAvgWeight": 75,
+          "caAvgWeight": 72,
+          "adultAvgWeight": null,
+          "maleAvgWeight": 70,
+          "femaleAvgWeight": 120,
+          "childrenAvgWeight": 23,
+          "infantAvgWeight": 12
+        }
+      },
+      "crew": [
+        {
+          "position": "PIC",
+          "crewId": "ameliaearhart@discovery.com",
+          "weight": null
+        },
+        {
+          "position": "SIC",
+          "crewId": "buzzaldrin@flight.com",
+          "weight": null
+        }
+      ],
+      "windOptions": {
+        "windModel": "Forecasted",
+        "fixedWindComponent": 120,
+        "fixedIsaDeviation": 12,
+        "historicalProbability": 50
+      },
+      "flightRule": null,
+      "atcTypeOfFlight": null,
+      "flightMeter": {
+        "flightHourMeterStart": 1,
+        "flightHourMeterEnd": 3,
+        "flightHourMeterTotal": 2
+      },
+      "flightLogTime": {
+        "timeIn": "2023-06-25T09:19:16.7845208+00:00",
+        "timeOff": "2023-06-25T12:19:16.7845211+00:00",
+        "timeOn": "2023-06-25T10:19:16.784521+00:00",
+        "timeOut": "2023-06-25T13:19:16.7845209+00:00",
+        "flight": 2,
+        "block": 4
+      },
+      "dispatcherNotes": null,
+      "tripId": null,
+      "tags": []
+    },
+    "notes": "Flight forced into read-only mode. 1. Alternate route planning is not yet supported in ForeFlight Mobile",
+    "errors": null,
+    "warnings": null
+  }
+}

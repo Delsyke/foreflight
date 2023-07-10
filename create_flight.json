@@ -1,0 +1,96 @@
+{
+  "flight": {
+    "departure": "",
+    "destination": "",
+    "scheduledTimeOfDeparture": "",
+    "aircraftRegistration": "",
+    "callsign": null,
+    "cruiseProfileUUID": null,
+    "routeToDestination": {
+      "route": "",
+      "altitude": {
+        "altitude": 230,
+        "unit": "FL"
+      }
+    },
+    "alternate": "",
+    "secondAlternate": null,
+    "takeOffAlternate": null,
+    "routeToAlternate": {
+      "route": "DCT",
+      "altitude": {
+        "altitude": 110,
+        "unit": "FL"
+      }
+    },
+    "routeToSecondAlternate": null,
+    "routeToTakeoffAlternate": null,
+    "fuel": {
+      "fuelPolicy": "ManualFuel",
+      "fuelPolicyValue": "",
+      "taxi": 35,
+      "fuelAtShutdown": null
+    },
+    "load": {
+      "people": null,
+      "averagePeopleWeight": null,
+      "cargo": null,
+      "passengers": [
+        {
+          "type": "Male",
+          "weight": null
+        },
+        {
+          "type": "Female",
+          "weight": null
+        },
+        {
+          "type": "Infant",
+          "weight": null
+        },
+        {
+          "type": "Child",
+          "weight": null
+        },
+        {
+          "type": "Adult",
+          "weight": null
+        }
+      ],
+      "customWeight": {
+        "pilotAvgWeight": 190,
+        "caAvgWeight": 190,
+        "adultAvgWeight": 185,
+        "maleAvgWeight": 190,
+        "femaleAvgWeight": 150,
+        "childrenAvgWeight": 75,
+        "infantAvgWeight": 0
+      }
+    },
+    "crew": [
+      {
+        "position": "PIC",
+        "crewId": "neilarmstrong@example.com",
+        "weight": null
+      },
+      {
+        "position": "SIC",
+        "crewId": "buzzaldrin@example.com",
+        "weight": null
+      }
+    ],
+    "windOptions": {
+      "windModel": "Forecasted",
+      "fixedWindComponent": 15,
+      "fixedIsaDeviation": 0,
+      "historicalProbability": 50
+    },
+    "flightRule": null,
+    "atcTypeOfFlight": null,
+    "flightMeter": null,
+    "flightLogTime": null,
+    "dispatcherNotes": null,
+    "tripId": null,
+    "tags": ["test flight"]
+  }
+}

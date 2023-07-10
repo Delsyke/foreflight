@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "objectId": "savedroute1",
+      "departure": "KMIA",
+      "destination": "KIAH",
+      "route": "WINCO2 WINCO DCT CHRRI DCT SMELZ Q116 JAWJA DCT CABLO DCT DEFUN J2 SJI NNCEE1",
+      "routeName": "Super smart route over land"
+    },
+    {
+      "objectId": "savedroute2",
+      "departure": "KHOU",
+      "destination": "KAUS",
+      "route": "PTRON6 PSX DCT THX DCT SAT V550 CWK DCT",
+      "routeName": "Scenic indirect route"
+    }
+  ]
+}
