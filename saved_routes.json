@@ -1,18 +1,1397 @@
 {
   "routes": [
     {
-      "objectId": "savedroute1",
-      "departure": "KMIA",
-      "destination": "KIAH",
-      "route": "WINCO2 WINCO DCT CHRRI DCT SMELZ Q116 JAWJA DCT CABLO DCT DEFUN J2 SJI NNCEE1",
-      "routeName": "Super smart route over land"
+      "objectId": "00dbbc3828414d9488255e26a670db68",
+      "departure": "HKSE",
+      "destination": "HKOY",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKSE TO HKOY"
     },
     {
-      "objectId": "savedroute2",
-      "departure": "KHOU",
-      "destination": "KAUS",
-      "route": "PTRON6 PSX DCT THX DCT SAT V550 CWK DCT",
-      "routeName": "Scenic indirect route"
+      "objectId": "0151988e217d4e9a94b1e6fa068c9ed2",
+      "departure": "HKNW",
+      "destination": "HKOY",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKOY"
+    },
+    {
+      "objectId": "01e247722bd64683835db711cf296444",
+      "departure": "HKKT",
+      "destination": "HKNW",
+      "route": "ELD037005 ELD140050 GETOM GV",
+      "routeName": "HKKT TO HKNW VOR DME"
+    },
+    {
+      "objectId": "01ed60b27899437493f091bce07bd0ab",
+      "departure": "HKNW",
+      "destination": "HKNW",
+      "route": "S0150E03618 GV NV TV",
+      "routeName": "HKNW TO HKNW"
+    },
+    {
+      "objectId": "036e396b43da47cda6bf22fbe3bae875",
+      "departure": "HKLD",
+      "destination": "HKJK",
+      "route": "N0005E03714 S0009E03701",
+      "routeName": "HKLD TO HKJK"
+    },
+    {
+      "objectId": "039d9c3b385b47368f318f0eff58f997",
+      "departure": "HKCC",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKCC TO HKNW"
+    },
+    {
+      "objectId": "03a50ed705e64fb594ae48a1265c72a5",
+      "departure": "HKHZ",
+      "destination": "HKJK",
+      "route": "0001N03654E 0009S03701E HKNI NV003030",
+      "routeName": "HKHZ TO HKJK"
+    },
+    {
+      "objectId": "03b583d917b3433cb7fb9c24f15cdc7f",
+      "departure": "HKUK",
+      "destination": "HKNW",
+      "route": "UTIKU UTEPI APNOM",
+      "routeName": "HKUK TO HKNW"
+    },
+    {
+      "objectId": "071b80f62a564afc9774c2c2e42d0126",
+      "departure": "HKOO",
+      "destination": "HKSL",
+      "route": "N0001E03654",
+      "routeName": "HKOO TO HKSL"
+    },
+    {
+      "objectId": "09d1f160e32045468ef48416bd5dfdd3",
+      "departure": "HKTQ",
+      "destination": "HKMO",
+      "route": "S0329.59E03851.",
+      "routeName": "HKTQ TO HKMO"
+    },
+    {
+      "objectId": "09d24d25208a4850a805a1884c856714",
+      "departure": "HKOO",
+      "destination": "HKNW",
+      "route": "N0001E03654 S0009E03701 NV349030",
+      "routeName": "HKOO TO HKNW"
+    },
+    {
+      "objectId": "0a3271e38ecd4593a5b87720108eeb81",
+      "departure": "HKOO",
+      "destination": "HKMF",
+      "route": "S0006E03629",
+      "routeName": "HKOO TO HKMF"
+    },
+    {
+      "objectId": "0b1b1f0d344b494983d1be4692e68293",
+      "departure": "HKFH",
+      "destination": "HKNW",
+      "route": "NV160030",
+      "routeName": "HKFH TO HKNW"
+    },
+    {
+      "objectId": "0b4987a3703a4ad1aedfa1f57244c4c7",
+      "departure": "HTZA",
+      "destination": "HKMO",
+      "route": "EGPET UVUKO",
+      "routeName": "HTZA TO HKMO"
+    },
+    {
+      "objectId": "0f893d62b00f4498a655d4a0bde31ca7",
+      "departure": "HKLD",
+      "destination": "HKOO",
+      "route": "N0021E03707",
+      "routeName": "HKLD TO HKOO"
+    },
+    {
+      "objectId": "109ba097c29e49388b978aca47ce8410",
+      "departure": "HKNW",
+      "destination": "ZZZZ",
+      "route": "TV 0212S03823E",
+      "routeName": "HKNW TO ZZZZ"
+    },
+    {
+      "objectId": "14b424da52f946f7bfb135691af8fc5a",
+      "departure": "HKNW",
+      "destination": "OLDO",
+      "route": "NV157030 NV150060",
+      "routeName": "HKNW TO OLDO"
+    },
+    {
+      "objectId": "153d8949927f46d1be28a716296239e7",
+      "departure": "HKTB",
+      "destination": "HKJK",
+      "route": "S0123E03638",
+      "routeName": "HKTB TO HKJK"
+    },
+    {
+      "objectId": "162f310fcc29420f8c1bd17b99f224a9",
+      "departure": "HKNW",
+      "destination": "HKLD",
+      "route": "S0009E03701 N0005E03714",
+      "routeName": "HKNW TO HKLD DASH"
+    },
+    {
+      "objectId": "16e2567857d845ffa51147dd71687ad7",
+      "departure": "HKHZ",
+      "destination": "HKNW",
+      "route": "0001N03654E 0009S03701E HKNI NV003030",
+      "routeName": "HKHZ TO HKNW"
+    },
+    {
+      "objectId": "176111e1b8a34ba9a23cb117ed16876f",
+      "departure": "HKNW",
+      "destination": "HKUK",
+      "route": "UVOVA NEREV",
+      "routeName": "HKNW TO HKUK"
+    },
+    {
+      "objectId": "18bb3850aa0046ddb17882c4c1852c87",
+      "departure": "HK02",
+      "destination": "HKNL",
+      "route": "N0005E03714",
+      "routeName": "HK02 TO HKNL"
+    },
+    {
+      "objectId": "19edd9765227424496744caa60b8e594",
+      "departure": "HKAK",
+      "destination": "HKTB",
+      "route": "S0006E03629",
+      "routeName": "HKAK TO HKTB"
+    },
+    {
+      "objectId": "1c6953fdfa2b4830b2f536a540f32028",
+      "departure": "HKNW",
+      "destination": "HKSJ",
+      "route": "NV268035 S0120E03541",
+      "routeName": "HKNW TO HKSJ"
+    },
+    {
+      "objectId": "1d7d7e045e3b43a2a1992c6baeca55db",
+      "departure": "HKOO",
+      "destination": "HKNL",
+      "route": "N0001E03654",
+      "routeName": "HKOO TO HKNL"
+    },
+    {
+      "objectId": "1f5903ba26c641a4adae9483a820b108",
+      "departure": "HKNW",
+      "destination": "HKKT",
+      "route": "GETOM DUPSO",
+      "routeName": "HKNW TO HKKT"
+    },
+    {
+      "objectId": "21bf245372c1427cb8ffcef779643c42",
+      "departure": "HKNW",
+      "destination": "HTKJ",
+      "route": "UTATA",
+      "routeName": "HKNW TO HTKJ"
+    },
+    {
+      "objectId": "22def575e3674e0a845b8a86d7d07ea9",
+      "departure": "HKAK",
+      "destination": "HKMF",
+      "route": "S0006E03629",
+      "routeName": "HKAK TO HKMF"
+    },
+    {
+      "objectId": "2317a64028d84976974ee8102e2b80a8",
+      "departure": "HKOY",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKOY TO HKNW"
+    },
+    {
+      "objectId": "24a7c61361014671a2b837b97397631c",
+      "departure": "HKNW",
+      "destination": "HKKG",
+      "route": "GETOM KIDUM",
+      "routeName": "HKNW TO HKKG"
+    },
+    {
+      "objectId": "26c1020d983a497594b9f0b04dc2b5a9",
+      "departure": "HKLD",
+      "destination": "HKNW",
+      "route": "N0005E03714 S0009E03701 NV003030",
+      "routeName": "HKLD TO HKNW"
+    },
+    {
+      "objectId": "26c2275f92e94f8d8becd3fe4fe5aa66",
+      "departure": "HKJK",
+      "destination": "HKTB",
+      "route": "GV",
+      "routeName": "HKJK TO HKTB"
+    },
+    {
+      "objectId": "2847dafc4c08401cbd0fb64111ff50bd",
+      "departure": "OLJO",
+      "destination": "HKNW",
+      "route": "N0001E03654 S0009E03701 NV003030",
+      "routeName": "OLJO TO HKNW"
+    },
+    {
+      "objectId": "2d491a4d4a624bc4a2ac734e5eb25c3f",
+      "departure": "HKOO",
+      "destination": "HKOK",
+      "route": "S0006E03629",
+      "routeName": "HKOO TO HKOK"
+    },
+    {
+      "objectId": "32d42e898d684b369811cd760e87dbcf",
+      "departure": "HKNW",
+      "destination": "HKAM",
+      "route": "NV176030",
+      "routeName": "HKNW TO HKAM"
+    },
+    {
+      "objectId": "32dc60e8fe8d4f91bc7fb445bf791816",
+      "departure": "HKAK",
+      "destination": "HKOK",
+      "route": "S0006E03629",
+      "routeName": "HKAK TO HKOK"
+    },
+    {
+      "objectId": "345007ad5b6e422fa31329f558dea089",
+      "departure": "HKMJ",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKMJ TO HKNW"
+    },
+    {
+      "objectId": "357a4a9496f04879acfc96b0873d3f52",
+      "departure": "HKSE",
+      "destination": "HKNL",
+      "route": "N0005E03714",
+      "routeName": "HKSE TO HKNL"
+    },
+    {
+      "objectId": "3783aad9763f400a854bab3ee45d597b",
+      "departure": "HTKJ",
+      "destination": "HKJK",
+      "route": "UTATA",
+      "routeName": "HTKJ TO HKJK"
+    },
+    {
+      "objectId": "3927ef45fa3a49289286b3b66b4522ce",
+      "departure": "HKSE",
+      "destination": "HKMS",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKSE TO HKMS"
+    },
+    {
+      "objectId": "3ac70bdbe0db4ada8f013b9d746ac60c",
+      "departure": "HKNW",
+      "destination": "HKTB",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKTB"
+    },
+    {
+      "objectId": "3c2c1d46684042449a7b70422cc32ed6",
+      "departure": "HK03",
+      "destination": "HKJK",
+      "route": "DCT",
+      "routeName": "HK03 TO HKJK"
+    },
+    {
+      "objectId": "3ddf87b1608941ef939d3d98291c79c5",
+      "departure": "HKJK",
+      "destination": "HKHZ",
+      "route": "NV003030 S0009E03701 N0001E03654",
+      "routeName": "HKJK TO HKHZ"
+    },
+    {
+      "objectId": "3e5dc68792734cf39271cf71251bb289",
+      "departure": "HKNL",
+      "destination": "HKLD",
+      "route": "N0005E03714",
+      "routeName": "HKNL TO HKLD"
+    },
+    {
+      "objectId": "3ed864e1c9fc415c88d25d504237b928",
+      "departure": "HKSP",
+      "destination": "HKNW",
+      "route": "NV268075",
+      "routeName": "HKSP TO HKNW"
+    },
+    {
+      "objectId": "3f086a25acaf47258c3b66c770a144e8",
+      "departure": "HKNW",
+      "destination": "HKGE",
+      "route": "NV268030",
+      "routeName": "HKNW TO HKGE"
+    },
+    {
+      "objectId": "4055564bdaab4437aed5a26808e5737c",
+      "departure": "HK02",
+      "destination": "HKGE",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HK02 TO HKGE"
+    },
+    {
+      "objectId": "43b74e0ca6e449d8bf868d6da84b07b7",
+      "departure": "HK02",
+      "destination": "HKSJ",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HK02 TO HKSJ"
+    },
+    {
+      "objectId": "444b376428134322b70e8db267dc271d",
+      "departure": "HKNL",
+      "destination": "HK02",
+      "route": "N0005E03714",
+      "routeName": "HKNL TO HK02"
+    },
+    {
+      "objectId": "45698ffae33b461e8ac5bce23c7c3552",
+      "departure": "HK02",
+      "destination": "HKSC",
+      "route": "N0005E03714",
+      "routeName": "HK02 TO HKSC"
+    },
+    {
+      "objectId": "4626027bf5bc44c08c7b51aa4cd1570c",
+      "departure": "HKNW",
+      "destination": "HKKI",
+      "route": "APKUB NEVON",
+      "routeName": "HKNW HKKI"
+    },
+    {
+      "objectId": "4635a13dce2d416788d0ef337c04d3ba",
+      "departure": "HKNW",
+      "destination": "HKKE",
+      "route": "NV/260/",
+      "routeName": "HKNW TO HKKE VOR/DME"
+    },
+    {
+      "objectId": "47b06c9d93a843ba9e67a3aece99c954",
+      "departure": "HKNW",
+      "destination": "HKOO",
+      "route": "NV349030 S0009E03701 N0001E03654",
+      "routeName": "HKNW TO HKOO 1"
+    },
+    {
+      "objectId": "4b404db494ec400885e9dd6037cac675",
+      "departure": "HKIS",
+      "destination": "HKNW",
+      "route": "N0005E03714 S0009E03701 NV001030",
+      "routeName": "HKIS TO HKNW"
+    },
+    {
+      "objectId": "4d3369ea0e2b429d93dbcb0b8559716a",
+      "departure": "HKSE",
+      "destination": "HKNW",
+      "route": "N0005E03714 S0009E03701",
+      "routeName": "HKSE TO HKNW"
+    },
+    {
+      "objectId": "4d354a17b42c4715ab9ea0a59fb37b90",
+      "departure": "HKLD",
+      "destination": "HKSC",
+      "route": "N0005E03714",
+      "routeName": "HKLD TO HKSC"
+    },
+    {
+      "objectId": "4f2ddd2363b04ac4b7e01669b837c5a5",
+      "departure": "HKLD",
+      "destination": "HK03",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKLD TO HK03"
+    },
+    {
+      "objectId": "5109a78e60c4433981f9e6fc9cae6ce8",
+      "departure": "HKML",
+      "destination": "HKNW",
+      "route": "NORVU IMLAT",
+      "routeName": "HKML TO HKNW"
+    },
+    {
+      "objectId": "5203b689c2e840d99e53ac452bd7bb57",
+      "departure": "HKTB",
+      "destination": "HKSL",
+      "route": "S0006E03629",
+      "routeName": "HKTB TO HKSL"
+    },
+    {
+      "objectId": "528ee3bb2ce14c62ba35e628449d40f6",
+      "departure": "HKNW",
+      "destination": "HKKE",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKKE"
+    },
+    {
+      "objectId": "52cb8172164949c19927c2c6f021ff3a",
+      "departure": "HKMO",
+      "destination": "HKMF",
+      "route": "UTIKU HKMG",
+      "routeName": "HKMO TO HKMF"
+    },
+    {
+      "objectId": "52fc217803c445b3948f25b37fcd5576",
+      "departure": "HKAM",
+      "destination": "HKLD",
+      "route": "NV175030 NV003030 S0009E03701 N0005E03714",
+      "routeName": "HKAM TO HKLD"
+    },
+    {
+      "objectId": "53cb67b2d84343cab71aa1b9dba540c8",
+      "departure": "HKNW",
+      "destination": "HK03",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HK03"
+    },
+    {
+      "objectId": "5465995c34a74289895a71fb09fb673a",
+      "departure": "HKLD",
+      "destination": "HKMF",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKLD TO HKMF"
+    },
+    {
+      "objectId": "5791cc17565745f99a59ca7f9937f528",
+      "departure": "HKLD",
+      "destination": "HKOY",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKLD TO HKOY"
+    },
+    {
+      "objectId": "58436bb99e414585a47c1586d6b45268",
+      "departure": "HKKT",
+      "destination": "HKNW",
+      "route": "KIDUM GV",
+      "routeName": "HKKT TO HKNW"
+    },
+    {
+      "objectId": "5ad88b217e6c495789b2f7662fa1017f",
+      "departure": "HKSL",
+      "destination": "HKNW",
+      "route": "NV003030",
+      "routeName": "HKSL TO HKNW"
+    },
+    {
+      "objectId": "5af1736883f6428180608fd17a2d2150",
+      "departure": "HKOO",
+      "destination": "HKKE",
+      "route": "S0006E03629",
+      "routeName": "HKOO TO HKKE"
+    },
+    {
+      "objectId": "5bd89debd8024e958c3de5a6587a5fb7",
+      "departure": "HKSE",
+      "destination": "HKTB",
+      "route": "S0009E03633",
+      "routeName": "HKSE TO HKTB"
+    },
+    {
+      "objectId": "5cffc7c4f4bd409aa149e1a3a297008a",
+      "departure": "HTMU",
+      "destination": "HTAR",
+      "route": "S0134.1E03453.1",
+      "routeName": "KOGATENDE"
+    },
+    {
+      "objectId": "6279d6b11eab4240a8d2bbc8176c07cd",
+      "departure": "HK03",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HK03 TO HKNW"
+    },
+    {
+      "objectId": "63682f9a96964e0594db20267469be9a",
+      "departure": "HKNW",
+      "destination": "HKSE",
+      "route": "NV003030 S0009E03701 N0005E03714",
+      "routeName": "HKNW TO HKSE"
+    },
+    {
+      "objectId": "63dd4970a0714787b7d3b1319b1ce56c",
+      "departure": "HKNW",
+      "destination": "HKFH",
+      "route": "NV175030 NV165060",
+      "routeName": "HKNW TO HKFH"
+    },
+    {
+      "objectId": "6442c0bb76f24917bf7d32c892153163",
+      "departure": "HKNW",
+      "destination": "HTZA",
+      "route": "GABSO LUDOL GEREN",
+      "routeName": "HKNW TO HTZA"
+    },
+    {
+      "objectId": "6549d0b5ed5a439eb116078a08418cd5",
+      "departure": "HKOO",
+      "destination": "HKLD",
+      "route": "N0005E03714",
+      "routeName": "HKOO TO HKLD"
+    },
+    {
+      "objectId": "662ae1d695c14b2385566d564a11bb7d",
+      "departure": "OLDO",
+      "destination": "HKNW",
+      "route": "NV156030",
+      "routeName": "OLDO TO HKNW"
+    },
+    {
+      "objectId": "6752532113b340d4bff859751cd96377",
+      "departure": "HK09",
+      "destination": "HKNW",
+      "route": "N0001E03654 S0009E03701 S0047E03652",
+      "routeName": "HK09 TO HKNW"
+    },
+    {
+      "objectId": "6874c17fdace481b928e6a2ef48e603c",
+      "departure": "HKNW",
+      "destination": "HKIS",
+      "route": "NV001035 N0005E03714",
+      "routeName": "HKNW TO HKIS"
+    },
+    {
+      "objectId": "688878b9065a444d890d31e669fc010f",
+      "departure": "HKNW",
+      "destination": "HKLO",
+      "route": "GETOM KAMAS",
+      "routeName": "HKNW TO HKLO"
+    },
+    {
+      "objectId": "6c00a9ac0a39449ca05c20232e71c885",
+      "departure": "HKKI",
+      "destination": "HKNW",
+      "route": "IBSUL GV",
+      "routeName": "HKKI HKNW"
+    },
+    {
+      "objectId": "6ca4b56da1a1471eb771b09d927f21dd",
+      "departure": "HKNW",
+      "destination": "HKOO",
+      "route": "NV349030 S0014E03649",
+      "routeName": "HKNW TO HKOO"
+    },
+    {
+      "objectId": "6ee217654fa24b049e4b8991fa945106",
+      "departure": "HKNW",
+      "destination": "4N0",
+      "route": "DCT",
+      "routeName": "HKNW TO 4N0"
+    },
+    {
+      "objectId": "6f24667277414d2080bef3c20a58f544",
+      "departure": "HKSC",
+      "destination": "HKNW",
+      "route": "S0009E03701 NV003030",
+      "routeName": "HKSC TO HKNW"
+    },
+    {
+      "objectId": "707743af38694533adc24db76320c6c1",
+      "departure": "HKNW",
+      "destination": "HKMS",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKMS"
+    },
+    {
+      "objectId": "7285d4ed53344c63ba5f58de378928fc",
+      "departure": "HKNL",
+      "destination": "HKNW",
+      "route": "S0009E03701 NV005030",
+      "routeName": "HKNL TO HKNW"
+    },
+    {
+      "objectId": "7288294d943b4d45a6423b681fdc5590",
+      "departure": "HKSC",
+      "destination": "HKTB",
+      "route": "S0009E03633",
+      "routeName": "HKSC TO HKTB"
+    },
+    {
+      "objectId": "72ac5b0e12fb4d1a9b37f183057f2c13",
+      "departure": "HKAK",
+      "destination": "HKNL",
+      "route": "N0001E03654",
+      "routeName": "HKAK TO HKNL"
+    },
+    {
+      "objectId": "748389f4387048af955f58764ae531b0",
+      "departure": "HKNW",
+      "destination": "HKOV",
+      "route": "GETOM",
+      "routeName": "HKNW TO HKOV"
+    },
+    {
+      "objectId": "75a90c696c154d44a7fd94d7715b5ac9",
+      "departure": "HKNW",
+      "destination": "HKSC",
+      "route": "NV005030 S0009E03701",
+      "routeName": "HKNW TO HKSC"
+    },
+    {
+      "objectId": "75ecc02780f34d8bbd10be37bbbcb82c",
+      "departure": "HKNW",
+      "destination": "HKUK",
+      "route": "S0134.87E03648.",
+      "routeName": "SLA 1"
+    },
+    {
+      "objectId": "771d0508ab69467abcdeafabf5b1dd2e",
+      "departure": "HKMS",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKMS TO HKNW"
+    },
+    {
+      "objectId": "77551a5c410b4d3c944d1fb11736804f",
+      "departure": "HKOO",
+      "destination": "HKCC",
+      "route": "S0006E03629",
+      "routeName": "HKOO TO HKCC"
+    },
+    {
+      "objectId": "7865cbda773b4a18b8e9958d9185719e",
+      "departure": "HKNW",
+      "destination": "HKAM",
+      "route": "NV176030 0212S03823E",
+      "routeName": "HKNW TO ITHUMBA"
+    },
+    {
+      "objectId": "78dbefa22c7c4a57b0ddb57d9c91388e",
+      "departure": "ZZZZ",
+      "destination": "HKNW",
+      "route": "0212S03823E TV",
+      "routeName": "ZZZZ TO HKNW"
+    },
+    {
+      "objectId": "79bd87a013d1495290dfbbf86ba2ca54",
+      "departure": "HK02",
+      "destination": "HKNW",
+      "route": "N0005E03714 S0009E03701 NV001030",
+      "routeName": "HK02 TO HKNW"
+    },
+    {
+      "objectId": "7a6f3026f5744bd9bf11710e5e12394b",
+      "departure": "HKNW",
+      "destination": "HKKL",
+      "route": "NV176030",
+      "routeName": "HKNW TO HKKL"
+    },
+    {
+      "objectId": "7a7953981dcf47bda07b2c7bd2e8b5c3",
+      "departure": "HKOO",
+      "destination": "HKSE",
+      "route": "N0121.'E03721.'",
+      "routeName": "HK31"
+    },
+    {
+      "objectId": "7a79a21f98cc447793c825f675a82a0a",
+      "departure": "HKSE",
+      "destination": "HKSJ",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKSE TO HKSJ"
+    },
+    {
+      "objectId": "7aad51f7eb644921820775ad0de3a4fd",
+      "departure": "HK15",
+      "destination": "HKTB",
+      "route": "S0009E03633",
+      "routeName": "HK15 TO HKTB"
+    },
+    {
+      "objectId": "7cd337c8b06a4059b1dead2aa30eb457",
+      "departure": "HKSE",
+      "destination": "HKKE",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKSE TO HKKE"
+    },
+    {
+      "objectId": "7d47e56a3b144779b6e0118832fe2d62",
+      "departure": "HKNL",
+      "destination": "HKOO",
+      "route": "N0001E03654",
+      "routeName": "HKNL TO HKOO"
+    },
+    {
+      "objectId": "7e9e211de2bb4c8d9ee519707993064e",
+      "departure": "HKMF",
+      "destination": "HKLU",
+      "route": "UVOVA MLD349070",
+      "routeName": "HKMF TO HKLU"
+    },
+    {
+      "objectId": "80178ae71955471d9976f2eb8a7f134f",
+      "departure": "",
+      "destination": "",
+      "route": "N0021E 03707 S0006E03629",
+      "routeName": "KALAMA TO OLARE"
+    },
+    {
+      "objectId": "81ac889e86764205ac9bd396e3b09f77",
+      "departure": "HKOO",
+      "destination": "HKBK",
+      "route": "N0005E03714",
+      "routeName": "HKOO TO HKBK"
+    },
+    {
+      "objectId": "8275b2ec2c184aa3b125d8ec040c5efb",
+      "departure": "HKOO",
+      "destination": "HKSE",
+      "route": "N0121.'E03721.'",
+      "routeName": "KALEPO"
+    },
+    {
+      "objectId": "82bde3e48fbc4bab83366311fe2fe81f",
+      "departure": "HKNL",
+      "destination": "HKIS",
+      "route": "N0005E03714",
+      "routeName": "HKNL TO HKIS"
+    },
+    {
+      "objectId": "82e8140e22b847a79f5730f51122ebb3",
+      "departure": "",
+      "destination": "",
+      "route": "DCT",
+      "routeName": "HK40"
+    },
+    {
+      "objectId": "8335f3c349554f5a82f07848e6cdd38e",
+      "departure": "HKAM",
+      "destination": "HKJK",
+      "route": "NV175030",
+      "routeName": "HKAM TO HKJK"
+    },
+    {
+      "objectId": "8531cf1b37f94cffa390f7aa1cd1b205",
+      "departure": "HKNW",
+      "destination": "",
+      "route": "DCT",
+      "routeName": "HK06 KALEPO"
+    },
+    {
+      "objectId": "8570a2da136e40638c09874138d3acdb",
+      "departure": "HK02",
+      "destination": "HKOY",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HK02 TO HKOY"
+    },
+    {
+      "objectId": "896c4d5e1fd4450e8633e9e6abf33493",
+      "departure": "HKNW",
+      "destination": "HK09",
+      "route": "NV003030 S0022E03658 N000104E0365404",
+      "routeName": "HKNW TO HK09"
+    },
+    {
+      "objectId": "90518f1dadd54851874d0f97e8c71e6d",
+      "departure": "HKMO",
+      "destination": "HTZA",
+      "route": "UVUKO EGPET",
+      "routeName": "HKMO TO HTZA"
+    },
+    {
+      "objectId": "956f7539294d4a2a9f1cba4e8f1d9606",
+      "departure": "HKLU",
+      "destination": "HKNW",
+      "route": "MLD349070 UVOVA APNOM",
+      "routeName": "HKLU TO HKNW vordme"
+    },
+    {
+      "objectId": "95e791b053da439cb44496d2c45e7d7a",
+      "departure": "HKO5",
+      "destination": "HKNW",
+      "route": "S0009E03701 NV005030",
+      "routeName": "HKO5 TO HKNW"
+    },
+    {
+      "objectId": "966b5fb04c674b32b4b79adff9112ffd",
+      "departure": "HKNW",
+      "destination": "HKSL",
+      "route": "S0047E03652",
+      "routeName": "HKNW TO HKSL"
+    },
+    {
+      "objectId": "9cfdf59267b0406ba91758b1be7a21ed",
+      "departure": "HKKL",
+      "destination": "HKNW",
+      "route": "NV175030",
+      "routeName": "HKKL TO HKNW"
+    },
+    {
+      "objectId": "9ee05c1cfdca4d6082e2b6a550eecc03",
+      "departure": "HKAK",
+      "destination": "HKNW",
+      "route": "N0001E03654 S0009E03701 NV003030",
+      "routeName": "HKAK TO HKNW"
+    },
+    {
+      "objectId": "a2589d0120aa41eab3da984a5e9b1713",
+      "departure": "HKSC",
+      "destination": "HKOY",
+      "route": "S0006E03629",
+      "routeName": "HKSC TO HKOY"
+    },
+    {
+      "objectId": "a6c0a030b7e6482999f0425c058a627b",
+      "departure": "HKLD",
+      "destination": "HKTB",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKLD TO HKTB"
+    },
+    {
+      "objectId": "a800f46b1d8f474f816ba59993269c22",
+      "departure": "HKJK",
+      "destination": "HTKJ",
+      "route": "UTATA",
+      "routeName": "HKJK TO HTKJ"
+    },
+    {
+      "objectId": "aa23865b3ce14b7b9aec3560977a2615",
+      "departure": "HKNW",
+      "destination": "HKNL",
+      "route": "NV003030 S0009E03701",
+      "routeName": "HKNW TO HKNL"
+    },
+    {
+      "objectId": "ab7b151246864fff9de4838b3e442970",
+      "departure": "",
+      "destination": "",
+      "route": "N0021E 03707",
+      "routeName": "null TO null"
+    },
+    {
+      "objectId": "acd5e1ffbd274a249bef0de99d9ae3ca",
+      "departure": "HKSC",
+      "destination": "HK02",
+      "route": "N0005E03714",
+      "routeName": "HKSC TO HK02"
+    },
+    {
+      "objectId": "aeb53bc9178e461abc2e6a234c5a68ab",
+      "departure": "HKNW",
+      "destination": "HKKT",
+      "route": "GETOM ELD135050 ELD037005",
+      "routeName": "HKNW TO HKKT VOR DME"
+    },
+    {
+      "objectId": "b152964a85b94fc0aa5c0f354da32b93",
+      "departure": "HKJK",
+      "destination": "HKNW",
+      "route": "NAVE2D NV",
+      "routeName": "HKJK TO HKNW"
+    },
+    {
+      "objectId": "b32df5f26cd540c89486969face52465",
+      "departure": "HKBK",
+      "destination": "HKNW",
+      "route": "N0005E03714 S0009E03701",
+      "routeName": "HKBK TO HKNW"
+    },
+    {
+      "objectId": "b3692382bc7849dda53641183d9ff037",
+      "departure": "HKAM",
+      "destination": "HKNW",
+      "route": "NV175030",
+      "routeName": "HKAM TO HKNW"
+    },
+    {
+      "objectId": "b5b12d7a754c4826a6395faabb15aae2",
+      "departure": "HKNW",
+      "destination": "HKAK",
+      "route": "NV003030 S0009E03701 N0001E03654",
+      "routeName": "HKNW TO HKAK"
+    },
+    {
+      "objectId": "b6e0219e10c9441197a40559b82c2b94",
+      "departure": "HKNW",
+      "destination": "HKBK",
+      "route": "S0009E03701 N0005E03714",
+      "routeName": "HKNW TO HKBK"
+    },
+    {
+      "objectId": "b7b3413faf84469f996d9bd281252a0c",
+      "departure": "HKSC",
+      "destination": "HKKE",
+      "route": "S0006E03629",
+      "routeName": "HKSC TO HKKE"
+    },
+    {
+      "objectId": "b9c34e393d7a454aa30a5f7c3c051338",
+      "departure": "HTPE",
+      "destination": "HKNW",
+      "route": "S0442 14E03930 ' S0329 59E03851  S0202.17E03721.'",
+      "routeName": "HTPE TO HKNW"
+    },
+    {
+      "objectId": "ba6deebc45c442eb87b34534541d26f1",
+      "departure": "HKSJ",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKSJ TO HKNW"
+    },
+    {
+      "objectId": "bab9ba2782dd41d897cc4f16cb4d4155",
+      "departure": "HKNL",
+      "destination": "HKAK",
+      "route": "N0001E03654",
+      "routeName": "HKNL TO HKAK"
+    },
+    {
+      "objectId": "bbe492b509bc49179170c7b2c98dcf5b",
+      "departure": "HKSB",
+      "destination": "HKNW",
+      "route": "N0005E03714 S0009E03701",
+      "routeName": "HKSB TO HKNW"
+    },
+    {
+      "objectId": "bc0d187629af480280c97e521852c63f",
+      "departure": "HKMO",
+      "destination": "HKNW",
+      "route": "UTIKU UTEPI APNOM",
+      "routeName": "HKMO TO HKNW"
+    },
+    {
+      "objectId": "bd004fc4d2be4cd8b10831168334c6f4",
+      "departure": "HKLD",
+      "destination": "HKKE",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKLD TO HKKE"
+    },
+    {
+      "objectId": "bf1aed3f91a741ca991f0719a8a60095",
+      "departure": "HKNW",
+      "destination": "HKSP",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKSP"
+    },
+    {
+      "objectId": "bf7cf999d6d34c7f909a953b4e28963b",
+      "departure": "HKOV",
+      "destination": "HKOK",
+      "route": "TIDAK HKNO",
+      "routeName": "HKOV TO HKOK"
+    },
+    {
+      "objectId": "c0b0fb35c183455b9e2b767685381096",
+      "departure": "HKOO",
+      "destination": "HKSE",
+      "route": "DCT",
+      "routeName": "HKOO TO HKSE"
+    },
+    {
+      "objectId": "c0b70a4c75234bfd99db2729686f08a3",
+      "departure": "HKNW",
+      "destination": "HKMJ",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKMJ"
+    },
+    {
+      "objectId": "c2003b3ef07a4c28938e9b32052d97af",
+      "departure": "HKOO",
+      "destination": "HKSE",
+      "route": "N0121.'E03721.'",
+      "routeName": "HK05"
+    },
+    {
+      "objectId": "c236ee81f2904eaeb8911bef88c72ea6",
+      "departure": "HKNW",
+      "destination": "HK18",
+      "route": "TEVIN P312 EPSIB VFR",
+      "routeName": "HKNW TO HK18"
+    },
+    {
+      "objectId": "c23f602eafe74cde9327a2e07a5bc37d",
+      "departure": "HTKJ",
+      "destination": "HKMO",
+      "route": "AVUNO ASOLE GADLA",
+      "routeName": "HTKJ TO HKMO"
+    },
+    {
+      "objectId": "c2c6ccc090294eba95b56892d03549d9",
+      "departure": "HKLD",
+      "destination": "HKSJ",
+      "route": "N0022E03708 S0009E03633",
+      "routeName": "HKLD TO HKSJ"
+    },
+    {
+      "objectId": "c326cccaaadf4009b8cf012c0747d731",
+      "departure": "HKAK",
+      "destination": "HKNW",
+      "route": "N0001E03654 S0022E03657",
+      "routeName": "HKAK TO HKNWff"
+    },
+    {
+      "objectId": "c3713056c83744ef925f1be80fa53f01",
+      "departure": "HKMF",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKMF TO HKNW"
+    },
+    {
+      "objectId": "c3ba7e43ef71442288968364a7abc5b4",
+      "departure": "HKGE",
+      "destination": "HKNW",
+      "route": "GV",
+      "routeName": "HKGE TO HKNW"
+    },
+    {
+      "objectId": "c4106a7547944b7f874597f6c10503f7",
+      "departure": "HKAK",
+      "destination": "HKOY",
+      "route": "S0006E03629",
+      "routeName": "HKAK TO HKOY"
+    },
+    {
+      "objectId": "c4b2b091a70143429eb246c5faa7dd74",
+      "departure": "HKTB",
+      "destination": "HKUK",
+      "route": "HKMG GABSO",
+      "routeName": "HKTB TO HKUK"
+    },
+    {
+      "objectId": "c6ab2b5dbb0c48c39bbd8dd7ca4f9457",
+      "departure": "HKNL",
+      "destination": "HKSB",
+      "route": "N0005E03714",
+      "routeName": "HKNL TO HKSB"
+    },
+    {
+      "objectId": "c92450466cc246f581e94d592067ba8a",
+      "departure": "HKNW",
+      "destination": "HKOD",
+      "route": "GETOM",
+      "routeName": "HKNW TO HKOD"
+    },
+    {
+      "objectId": "c9590979ab614597bb16dd3fd2c288c8",
+      "departure": "HKTB",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKTB TO HKNW"
+    },
+    {
+      "objectId": "c98ae89984ff43b5a4c9b805ee6bd1d7",
+      "departure": "HKAK",
+      "destination": "HKLD",
+      "route": "N0021E03707",
+      "routeName": "HKAK TO HKLD"
+    },
+    {
+      "objectId": "ca267394058647718b2ff5322b0da33f",
+      "departure": "HKJK",
+      "destination": "HKLU",
+      "route": "UVOVA MLD349070",
+      "routeName": "HKJK TO HKLU"
+    },
+    {
+      "objectId": "cad99771438c493caf900092032aca15",
+      "departure": "HKNL",
+      "destination": "HKSE",
+      "route": "N0005E03714",
+      "routeName": "HKNL TO HKSE"
+    },
+    {
+      "objectId": "cbebb843ac8347adb1634660269aeb6b",
+      "departure": "HKLU",
+      "destination": "HKO5",
+      "route": "EVOGO N0011E3727 N0021E03707",
+      "routeName": "HKLU TO HKO5"
+    },
+    {
+      "objectId": "cf2e97fb3ba74757ad8074c5b48f1239",
+      "departure": "HKNL",
+      "destination": "HKTB",
+      "route": "S0009E03633",
+      "routeName": "HKNL TO HKTB"
+    },
+    {
+      "objectId": "cfeee30d2111453e90bfc3474190b03f",
+      "departure": "HKNW",
+      "destination": "HKLD",
+      "route": "NV003030 S0034E03729",
+      "routeName": "HKNW TO HKLD1"
+    },
+    {
+      "objectId": "d1702037b4c34a68902e4d5d91825644",
+      "departure": "HKNW",
+      "destination": "HKSB",
+      "route": "S0047E03652 S0009E03701 N0005E03714",
+      "routeName": "HKNW TO HKSB"
+    },
+    {
+      "objectId": "d4086fc0ba9d499abfa4c5923f26609f",
+      "departure": "HKKE",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKKE TO HKNW"
+    },
+    {
+      "objectId": "d5d92c36f04a4aa1814175011a16a887",
+      "departure": "HTKJ",
+      "destination": "HKNW",
+      "route": "UTATA",
+      "routeName": "HTKJ TO HKNW"
+    },
+    {
+      "objectId": "d72816a2eaec407ba8dc6a98d57319ef",
+      "departure": "HKNW",
+      "destination": "HKOK",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKOK"
+    },
+    {
+      "objectId": "d91008c3a03449eda3247fe934d9e07d",
+      "departure": "HK02",
+      "destination": "HKOO",
+      "route": "N0021E03707",
+      "routeName": "HK02 TO HKOO"
+    },
+    {
+      "objectId": "d9d7a11a555a40a88969f5f5a1e6c702",
+      "departure": "HKNW",
+      "destination": "HKMF",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKMF"
+    },
+    {
+      "objectId": "da39d68d8d974c57b356f7ce24d6a1af",
+      "departure": "HKNW",
+      "destination": "HK02",
+      "route": "NV349030 S0009E03701 N0005E03714",
+      "routeName": "HKNW TO HK02"
+    },
+    {
+      "objectId": "db882bd818b44fe2996656607ac4dc7c",
+      "departure": "HKNW",
+      "destination": "ELKA",
+      "route": "NV349030 S0014E03649",
+      "routeName": "HKNW TO ELKA"
+    },
+    {
+      "objectId": "dc88e2aeab1e43e6a25fb7a188298810",
+      "departure": "HKAK",
+      "destination": "HKCC",
+      "route": "S0006E03629",
+      "routeName": "HKAK TO HKCC"
+    },
+    {
+      "objectId": "ddd379edc98b42cf95a10122eb1e7d54",
+      "departure": "HKNW",
+      "destination": "HKMO",
+      "route": "UVOVA NEREV",
+      "routeName": "HKNW TO HKMO"
+    },
+    {
+      "objectId": "def73d9a97804ec5bd74da05f78d1a08",
+      "departure": "HK02",
+      "destination": "HKTB",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HK02 TO HKTB"
+    },
+    {
+      "objectId": "df02463948e14f0ebf4c2c8c49e3abec",
+      "departure": "HKLD",
+      "destination": "HKCC",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKLD TO HKCC"
+    },
+    {
+      "objectId": "e0334d3794034e68b13177b3600875f5",
+      "departure": "HKJK",
+      "destination": "HTZA",
+      "route": "GABSO LUDOL GEREN",
+      "routeName": "HKJK TO HTZA"
+    },
+    {
+      "objectId": "e15caf98ef4d47a8b3865fb621b8d1e1",
+      "departure": "HKMF",
+      "destination": "HKFH",
+      "route": "S0149E03618",
+      "routeName": "HKMF TO HKFH"
+    },
+    {
+      "objectId": "e396bb0b99e84cfea428070bf38aeaf5",
+      "departure": "HKLD",
+      "destination": "HKOK",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKLD TO HKOK"
+    },
+    {
+      "objectId": "e42e6e1b11094903baf27538996c6c5c",
+      "departure": "HKOO",
+      "destination": "HKOY",
+      "route": "S0006E03629",
+      "routeName": "HKOO TO HKOY"
+    },
+    {
+      "objectId": "e71288f96d464ddabc4f9e917d7a96bd",
+      "departure": "HKLD",
+      "destination": "HKGE",
+      "route": "S0006E03629",
+      "routeName": "HKLD TO HKGE"
+    },
+    {
+      "objectId": "ea464060d8b742a29774f2b820b97050",
+      "departure": "HKSB",
+      "destination": "HK03",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKSB TO HK03"
+    },
+    {
+      "objectId": "ea7474e9af714baa9761c089ad517577",
+      "departure": "HKKG",
+      "destination": "HKMO",
+      "route": "IBSUL GETOM UVOVA NEREV",
+      "routeName": "HKKG TO HKMO"
+    },
+    {
+      "objectId": "eacd22057dbc42d28d15b741c5d69923",
+      "departure": "HKSL",
+      "destination": "HKJK",
+      "route": "NV349030",
+      "routeName": "HKSL TO HKJK"
+    },
+    {
+      "objectId": "eafd10165f9240d49e1c9c3c7b988b02",
+      "departure": "HKNW",
+      "destination": "HKLU",
+      "route": "UVOVA MLD349070",
+      "routeName": "HKNW TO HKLU vordme"
+    },
+    {
+      "objectId": "eb23bfff8f264078b48e314e171c2d92",
+      "departure": "HKOK",
+      "destination": "HKNW",
+      "route": "NV268075 NV268035",
+      "routeName": "HKOK TO HKNW"
+    },
+    {
+      "objectId": "eb62132e8a5a43949ecd8f43b645840a",
+      "departure": "HKNL",
+      "destination": "HKHZ",
+      "route": "N0001E03654",
+      "routeName": "HKNL TO HKHZ"
+    },
+    {
+      "objectId": "eea291853e1b4a5a99023737000c9beb",
+      "departure": "HKUK",
+      "destination": "HKJK",
+      "route": "UTIKU UTEPI APNOM",
+      "routeName": "HKUK TO HKJK"
+    },
+    {
+      "objectId": "f192abf990e747cf871bfac8fd8596d6",
+      "departure": "HKNW",
+      "destination": "HKSJ",
+      "route": "NV268075",
+      "routeName": "HKNW TO HKSJ DH8"
+    },
+    {
+      "objectId": "f1a89291fcaf4e10856f943ff825e777",
+      "departure": "HKNL",
+      "destination": "HKOK",
+      "route": "S0006E03629",
+      "routeName": "HKNL TO HKOK"
+    },
+    {
+      "objectId": "f21f3774af4e49fba1092032970cda3b",
+      "departure": "HTZA",
+      "destination": "HKNW",
+      "route": "GEREN LUDOL",
+      "routeName": "HTZA TO HKNW"
+    },
+    {
+      "objectId": "f354b14a4e344fce8ba93fc59c1c897c",
+      "departure": "HK02",
+      "destination": "HKMF",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "KALAMA TO HKMF"
+    },
+    {
+      "objectId": "f3f2fa1477b44448ae06dd912d703efe",
+      "departure": "HKKI",
+      "destination": "HKNW",
+      "route": "IBSUL",
+      "routeName": "HKKI TO HKNW"
+    },
+    {
+      "objectId": "f40e21ca832843bc81acbba8f32ea4ae",
+      "departure": "HKSC",
+      "destination": "HKGE",
+      "route": "NAK",
+      "routeName": "HKSC TO HKGE"
+    },
+    {
+      "objectId": "f5ed1bffd75342c7b3c51967ef10039e",
+      "departure": "HKNW",
+      "destination": "HKML",
+      "route": "IMLAT NORVU",
+      "routeName": "HKNW TO HKML"
+    },
+    {
+      "objectId": "f6967f1aa6e2409dbe4374f43b50ab93",
+      "departure": "HKMF",
+      "destination": "HKJK",
+      "route": "GV",
+      "routeName": "HKMF TO HKJK"
+    },
+    {
+      "objectId": "f6a9f28c4b3e4517b2a706d6503bf593",
+      "departure": "HKLD",
+      "destination": "HKNL",
+      "route": "N0005E03714",
+      "routeName": "HKLD TO HKNL"
+    },
+    {
+      "objectId": "f9a4cb52b7244255a691b96ea2fd5ace",
+      "departure": "ELKA",
+      "destination": "HKNW",
+      "route": "N0001E03654 S0009E03701 NV349030",
+      "routeName": "ELKA TO HKNW"
+    },
+    {
+      "objectId": "f9d539af83ca463d9ddcdd189ef68f26",
+      "departure": "HKNW",
+      "destination": "HKCC",
+      "route": "NV268035 NV268075",
+      "routeName": "HKNW TO HKCC"
+    },
+    {
+      "objectId": "fa976cda3dca4566953ce0cda3dea187",
+      "departure": "HK02",
+      "destination": "HKOK",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HK02 TO HKOK"
+    },
+    {
+      "objectId": "fc00a6c90575449e9cf18b753f626765",
+      "departure": "HKOO",
+      "destination": "HKTB",
+      "route": "S0009E03633",
+      "routeName": "HKOO TO HKTB"
+    },
+    {
+      "objectId": "fcb0ed2416df42baa3fa8a96cc1bbaa2",
+      "departure": "HKSE",
+      "destination": "HKMF",
+      "route": "N0021E03707 S0006E03629",
+      "routeName": "HKSE TO HKMF"
+    },
+    {
+      "objectId": "fd8c78d3e6fc4fcea7bf9e02a3d97b4b",
+      "departure": "HKNW",
+      "destination": "HKLD",
+      "route": "NV003030 S0009E03701 N0005E03714",
+      "routeName": "HKNW TO HKLD"
+    },
+    {
+      "objectId": "fe6278f1ca1c4ea2af92a879f0d2ebed",
+      "departure": "HKKE",
+      "destination": "HKJK",
+      "route": "NV260070 GV",
+      "routeName": "HKKE TO HKJK"
+    },
+    {
+      "objectId": "ff6382db60684e19b18c510957990d53",
+      "departure": "HKAK",
+      "destination": "HKSC",
+      "route": "N0001E03654 S0009E03701",
+      "routeName": "HKAK TO HKSC"
     }
   ]
 }

@@ -1,9 +1,13 @@
-import json
-import requests
 from flight_data import get_api_key, flight_data
 from route import route
 from new_flight import new_flight
+import json
 
+
+with open('saved_routes.json') as f:
+    saved = json.load(f)
+
+saved_routes = saved['routes']
 
 api_key = get_api_key()
 payload = flight_data()
@@ -13,7 +17,7 @@ children=[0,0,3]
 aircraft = "5YSLL"
 stops = "HKNW HKFH HKAM HKNW"
 legs = route(stops)
-time = "2023-07-10T15:00:00Z"
+time = "2023-07-13T15:00:00Z"
 altitudes = [110, 100, 100]
 TOF = 1300
 
@@ -24,7 +28,17 @@ i=0
 for leg in legs:
     payload['flight']['departure'] = leg[0]
     payload['flight']['destination'] = leg[1]
-    payload['flight']['routeToDestination']['route']="DCT"
+
+    for r in range(len(saved_routes)):
+        if saved_routes[r]['departure'] == leg[0]:
+            if saved_routes[r]['destination'] == leg[1]:
+                saved_route = saved_routes[r]['route']
+                break
+        payload['flight']['routeToDestination']['route']=saved_route
+    else:
+        payload['flight']['routeToDestination']['route']="DCT"
+    
+    
     payload['flight']['routeToDestination']['altitude']['altitude'] = altitudes[i]
     m = males[i]
     f = females[i]
