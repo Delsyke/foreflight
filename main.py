@@ -14,10 +14,10 @@ payload = flight_data()
 males = [4,5,0]
 females = [3,4,3]
 children=[0,0,3]
-aircraft = "5YSLL"
-stops = "HKNW HKFH HKAM HKNW"
+aircraft = "5YSLN"
+stops = "HKNW HKAK HKMF HKNW"
 legs = route(stops)
-time = "2023-07-13T15:00:00Z"
+time = "2023-07-13T16:00:00Z"
 altitudes = [110, 100, 100]
 TOF = 1300
 
@@ -33,8 +33,8 @@ for leg in legs:
         if saved_routes[r]['departure'] == leg[0]:
             if saved_routes[r]['destination'] == leg[1]:
                 saved_route = saved_routes[r]['route']
+                payload['flight']['routeToDestination']['route']=saved_route
                 break
-        payload['flight']['routeToDestination']['route']=saved_route
     else:
         payload['flight']['routeToDestination']['route']="DCT"
     
