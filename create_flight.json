@@ -35,28 +35,7 @@
       "people": null,
       "averagePeopleWeight": null,
       "cargo": null,
-      "passengers": [
-        {
-          "type": "Male",
-          "weight": null
-        },
-        {
-          "type": "Female",
-          "weight": null
-        },
-        {
-          "type": "Infant",
-          "weight": null
-        },
-        {
-          "type": "Child",
-          "weight": null
-        },
-        {
-          "type": "Adult",
-          "weight": null
-        }
-      ],
+      "passengers": null,
       "customWeight": {
         "pilotAvgWeight": 190,
         "caAvgWeight": 190,
@@ -70,12 +49,12 @@
     "crew": [
       {
         "position": "PIC",
-        "crewId": "neilarmstrong@example.com",
+        "crewId": "Kunal Patel",
         "weight": null
       },
       {
         "position": "SIC",
-        "crewId": "buzzaldrin@example.com",
+        "crewId": "buzz aldrin@sl.com",
         "weight": null
       }
     ],
@@ -91,6 +70,6 @@
     "flightLogTime": null,
     "dispatcherNotes": null,
     "tripId": null,
-    "tags": ["test flight"]
+    "tags": [""]
   }
 }

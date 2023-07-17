@@ -4,3 +4,5 @@ update_flight = 'https://public-api.foreflight.com/public/api/flights/{flightId}
 
 get_saved_routes = 'https://public-api.foreflight.com/public/api/savedroutes'
 
+crew = 'https://public-api.foreflight.com/public/api/crew'
+
