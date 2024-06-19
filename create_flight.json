@@ -49,12 +49,12 @@
     "crew": [
       {
         "position": "PIC",
-        "crewId": "Kunal Patel",
+        "crewId": "arjieshah@gmail.com",
         "weight": null
       },
       {
         "position": "SIC",
-        "crewId": "buzz aldrin@sl.com",
+        "crewId": "mukaria.bryan@gmail.com",
         "weight": null
       }
     ],
@@ -70,6 +70,8 @@
     "flightLogTime": null,
     "dispatcherNotes": null,
     "tripId": null,
-    "tags": [""]
+    "tags": [
+      ""
+    ]
   }
 }

@@ -1,30 +1,48 @@
 from flight_data import get_api_key, flight_data
 from route import route
-from new_flight import new_flight
+from new_flight import new_flight, update_flight, refuel, change_alternate
 import json
 from times import get_etd
 from passengers import pax_C208
+from read_crew import edit_crew_usernames
+from plan_info import plan_info
+import datetime
 
+
+api_key = get_api_key()
 
 with open('saved_routes.json') as f:
     saved = json.load(f)
-
 saved_routes = saved['routes']
 
-api_key = get_api_key()
-payload = flight_data()
-males = [4,5]
-females = [3,4]
-children=[1,0]
-aircraft = "5YSLI"
-stops = "HKNW HKMJ HKNW"
-legs = route(stops)
-time = "2023-07-20T16:00Z"
-altitudes = [100, 110]
-TOF = 1200
+with open('names.json') as f:
+    all_crew=json.load(f)
 
+info = plan_info()
+pic = info['pic']
+sic = info['sic']
+
+# __________________________________________________________________________
+# EDIT THIS SECTION
+
+edit_crew_usernames(pic, sic, all_crew)
+males = info['males']
+females = info['females']
+children = info['children']
+freights = info['freights']
+aircraft = info['aircraft']
+stops = info['route']
+time = info['time']
+altitudes = info['altitudes']
+TOF = info['tof']
+refuel_stops = info['refuel_stops']
+# _____________________________________________
+
+legs = route(stops)
+payload = flight_data()
 payload['flight']['scheduledTimeOfDeparture'] = time
 payload['flight']['aircraftRegistration'] = aircraft
+
 i=0
 
 for leg in legs:
@@ -39,31 +57,72 @@ for leg in legs:
                 break
     else:
         payload['flight']['routeToDestination']['route']="DCT"
-    
-    
+
+
     payload['flight']['routeToDestination']['altitude']['altitude'] = altitudes[i]
     m = males[i]
     f = females[i]
     c = children[i]
+    fr = freights[i]
     total_pax = m + f + c
     payload['flight']['load']['passengers'] = pax_C208(m,f,c)
     payload['flight']['load']['people']= total_pax + 2
-    payload['flight']['load']['cargo'] = total_pax * 33
+    payload['flight']['load']['cargo'] = fr + total_pax*33
+
     i+=1
+
     payload['flight']['alternate'] = 'HKJK'
     payload['flight']['fuel']['fuelPolicyValue'] = TOF
 
     flight = new_flight(api_key, payload)
+    flight_id = flight['flight']['flightId']
+    minFuel = flight['flight']['performance']['fuel']['totalFuel']
+    trip_fuel = flight['flight']['performance']['fuel']['fuelToDestination']
+    landing_fuel = flight['flight']['performance']['fuel']['landingFuel']
 
-    TOF = flight['flight']['performance']['fuel']['landingFuel']
-    ETA = flight['flight']['performance']['times']['estimatedArrivalTime']
 
-    ETD = get_etd(ETA)
+    if TOF >= minFuel and TOF > 600:
+        print(f'flight {leg} created')
+        print(TOF, trip_fuel, landing_fuel)
+        TOF = landing_fuel
+        ETA = flight['flight']['performance']['times']['estimatedArrivalTime']
+        ETD = get_etd(ETA)
+
+    else:
+        if leg[0] in refuel_stops and TOF < 600:
+            fuel_qty = refuel(leg[0])
+
+            payload['flight']['fuel']['fuelPolicyValue'] = fuel_qty
+            updated_flight = update_flight(api_key, payload, flight_id)
+            trip_fuel = updated_flight['flight']['performance']['fuel']['fuelToDestination']
+            landing_fuel = updated_flight['flight']['performance']['fuel']['landingFuel']
+
+            print(f'flight {leg} created after refuel')
+            print(fuel_qty, trip_fuel, landing_fuel)
+
+        else:
+            if leg[1] != "HKNW":
+                new_alternate = change_alternate()
+                payload['flight']['alternate'] = new_alternate
+                updated_flight = update_flight(api_key, payload, flight_id)
+
+                trip_fuel = updated_flight['flight']['performance']['fuel']['fuelToDestination']
+                landing_fuel = updated_flight['flight']['performance']['fuel']['landingFuel']
+
+                print(f'flight {leg} created after change of alternate')
+                print(TOF, trip_fuel, landing_fuel)
+
+
+        TOF = landing_fuel
+        ETA = updated_flight['flight']['performance']['times']['estimatedArrivalTime']
+        ETD = get_etd(ETA)
+
 
     payload['flight']['scheduledTimeOfDeparture'] = ETD
 
 
-    print(f'flight {leg} created')
+
+
 
 
 

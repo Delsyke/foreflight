@@ -5,6 +5,12 @@ def flight_data():
         payload = json.load(f)
     return payload
 
+##
+##def update_data():
+##    with open('update_flight.json') as f:
+##        updated_payload = json.load(f)
+##    return updated_payload
+
 
 def get_api_key():
     with open('api_key.txt') as f:
