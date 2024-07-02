@@ -4,7 +4,7 @@ from new_flight import new_flight, update_flight, refuel, change_alternate
 import json
 from times import get_etd
 from passengers import pax_C208
-from read_crew import edit_crew_usernames
+from read_crew import edit_create_flight
 from plan_info import plan_info
 import datetime
 
@@ -21,11 +21,13 @@ with open('names.json') as f:
 info = plan_info()
 pic = info['pic']
 sic = info['sic']
+callsign = info['callsign']
 
 # __________________________________________________________________________
 # EDIT THIS SECTION
 
-edit_crew_usernames(pic, sic, all_crew)
+edit_create_flight(pic, sic, all_crew, callsign)
+
 males = info['males']
 females = info['females']
 children = info['children']
@@ -42,6 +44,7 @@ legs = route(stops)
 payload = flight_data()
 payload['flight']['scheduledTimeOfDeparture'] = time
 payload['flight']['aircraftRegistration'] = aircraft
+payload['flight']['callsign'] = callsign
 
 i=0
 

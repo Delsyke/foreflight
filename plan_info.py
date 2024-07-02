@@ -21,10 +21,11 @@ def plan_info():
     time_str = datetime.time.strftime(time, '%H:%M:%SZ')
     info['time'] = date_str+'T'+time_str
     info['aircraft'] = df.iloc[8][1]
-    info['refuel_stops'] = df.iloc[9][1]
-    info['pic'] = df.iloc[10][1]
-    info['sic'] = df.iloc[10][2]
-    info['tof'] = df.iloc[11][1]
+    info['callsign'] = df.iloc[9][1]
+    info['refuel_stops'] = df.iloc[10][1]
+    info['pic'] = df.iloc[11][1]
+    info['sic'] = df.iloc[11][2]
+    info['tof'] = df.iloc[12][1]
 
 ##    print(info)
 

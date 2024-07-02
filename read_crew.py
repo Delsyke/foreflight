@@ -11,7 +11,7 @@ with open('names.json','r') as f:
     all_crew=json.load(f)
 
 
-def edit_crew_usernames(name1, name2, all_crew):
+def edit_create_flight(name1, name2, all_crew, callsign):
     for crew in all_crew:
         PIC = crew['fullname'].lower()
         if PIC.startswith(name1.lower()) or PIC.endswith(name1.lower()):
@@ -27,6 +27,7 @@ def edit_crew_usernames(name1, name2, all_crew):
             flight_details['flight']['crew'][1]['crewId'] = sic_user
             break
 
+    flight_details['flight']['callsign'] = callsign
 
     updated_create_flight = json.dumps(flight_details, indent=2)
 
